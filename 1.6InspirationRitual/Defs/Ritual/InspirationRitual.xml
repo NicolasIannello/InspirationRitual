@@ -13,7 +13,7 @@
 	<InspirationRitual.PsychicRitualDef_InspirationRitual>
 		<defName>InspirationRitual</defName>
 		<label>Inspiphagy</label>
-		<description>Psychically drains experiences from the victim's mind to provoke an inspiration in the invoker. The target will fall into a coma for several days with a chance for the target to die.</description>
+		<description>Psychically shares experiences from the victim's mind to provoke an inspiration in the invoker, targeting the victim's highest skill. The target will fall into a coma for several days with a chance for the target to die.</description>
 		<researchPrerequisite>Philophagy</researchPrerequisite>
 		<outcomeDescription>With the current ritual quality, there is a {0}% chance of the target dying.</outcomeDescription>
 		<targetRole>InspirationTarget</targetRole>
@@ -34,7 +34,7 @@
 				<li>(1, 10)</li>
 			</points>
 		</deathChanceFromQualityCurve>
-		<cooldownHours>180</cooldownHours>
+		<cooldownHours>120</cooldownHours>
 		<iconPath>InspirationRitual/InspirationRitual</iconPath>
 	</InspirationRitual.PsychicRitualDef_InspirationRitual>
 
