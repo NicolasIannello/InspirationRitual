@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<InspirationRitual.Complete>{INVOKER_nameDef} has completed {RITUAL_definite} ritual, obtaining an inspiration in {Inspiration}.</InspirationRitual.Complete>
+	<InspirationRitual.Coma>The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma.</InspirationRitual.Coma>
+	<InspirationRitual.Death>The process damaged {TARGET_nameDef}'s brain, killing {TARGET_objective}.</InspirationRitual.Death>
+</LanguageData>

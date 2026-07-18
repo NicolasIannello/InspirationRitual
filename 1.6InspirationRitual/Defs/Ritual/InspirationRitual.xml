@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PsychicRitualRoleDef>
+		<defName>InspirationTarget</defName>
+		<label>target</label>
+		<allowedCount>1</allowedCount>
+		<allowedConditions>Default, Downed, Prisoner, Sleeping, IdeoUnwilling</allowedConditions>
+		<applyPowerOffset>false</applyPowerOffset>
+		<removeOnLost>false</removeOnLost>
+	</PsychicRitualRoleDef>
+
+	<InspirationRitual.PsychicRitualDef_InspirationRitual>
+		<defName>InspirationRitual</defName>
+		<label>Inspiphagy</label>
+		<description>Psychically drains experiences from the victim's mind to provoke an inspiration in the invoker. The target will fall into a coma for several days with a chance for the target to die.</description>
+		<researchPrerequisite>Philophagy</researchPrerequisite>
+		<outcomeDescription>With the current ritual quality, there is a {0}% chance of the target dying.</outcomeDescription>
+		<targetRole>InspirationTarget</targetRole>
+		<hoursUntilOutcome>2</hoursUntilOutcome>
+		<chanterRole>ChanterAdvanced</chanterRole>
+		<requiredOffering>
+			<filter>
+				<thingDefs>
+					<li>Shard</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</requiredOffering>
+		<deathChanceFromQualityCurve>
+			<points>
+				<li>(0, 100)</li>
+				<li>(0.5, 60)</li>
+				<li>(1, 10)</li>
+			</points>
+		</deathChanceFromQualityCurve>
+		<cooldownHours>180</cooldownHours>
+		<iconPath>InspirationRitual/InspirationRitual</iconPath>
+	</InspirationRitual.PsychicRitualDef_InspirationRitual>
+
+</Defs>
