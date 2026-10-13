@@ -4,7 +4,7 @@
 	<name>Inspiration Ritual</name>
 	<author>Eximeisty</author>
 	<modVersion>1.0</modVersion>
-	<supportedVersions><li>1.6</li></supportedVersions>
+	<supportedVersions><li>1.6</li><li>1.7</li></supportedVersions>
 	<packageId>Eximeisty.InspirationRitual</packageId>
 	<description>Adds a new anomaly ritual that grants inspirations to pawns.</description>
 
